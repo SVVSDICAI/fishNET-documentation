@@ -1,16 +1,18 @@
 # Fishnet 
-## Deployment
-### Pre deployment checklist
-[[Pre-Deployment]]
-### Deployment process
-[[Deployment]]
+
 ## Hardware
 ### power system
-[[Power]]
-[[Batteries]]
-[[Solar]]
-### Raspberry pi enclosure
-### Cameras
+[[batteries]]
+[[solar]]
+### Underwater enclosure
+#### Cameras
+[[camera]]
+#### Raspberry Pi
+[[Raspberry-pi]]
+#### Enclosure
+[[enclosure]]
+#### Power over ethernet
+[[POE]]
 ### Connectivity
 [[connectivity]]
 ## Software
@@ -20,4 +22,8 @@
 #### Recording service
 [[recording]]
 ### Model
-
+## Deployment
+### Pre deployment checklist
+[[Pre-Deployment]]
+### Deployment process
+[[Deployment]]
