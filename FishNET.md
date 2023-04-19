@@ -7,13 +7,13 @@
 - #### Cameras
 	- [camera](camera)
 - #### Raspberry Pi
-	- [[Raspberry-pi]](Raspberry-pi)
+	- [Raspberry-pi](Raspberry-pi)
 - #### Enclosure
-	- [[enclosure]]
+	- [enclosure](enclosure)
 - #### Power over Ethernet
-	- [[POE]]
+	- [POE](POE)
 - #### Connectivity
-	- [[connectivity]]
+	- [connectivity](connectivity)
 
 ## Software
 - ### Remote camera
