@@ -2,18 +2,18 @@
 
 ## Hardware
 - #### Power System
-	- [batteries](batteries)
-	- [solar](solar)
+	- [batteries](./batteries)
+	- [solar](./solar)
 - #### Cameras
-	- [camera](camera)
+	- [camera](./camera)
 - #### Raspberry Pi
-	- [Raspberry-pi](Raspberry-pi)
+	- [Raspberry-pi](./Raspberry-pi)
 - #### Enclosure
-	- [enclosure](enclosure)
+	- [enclosure](./enclosure)
 - #### Power over Ethernet
-	- [POE](POE)
+	- [POE](./POE)
 - #### Connectivity
-	- [connectivity](connectivity)
+	- [connectivity](./connectivity)
 
 ## Software
 - ### Remote camera
