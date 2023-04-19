@@ -2,12 +2,12 @@
 
 ## Hardware
 - #### Power System
-	- [[batteries]]
-	- [[solar]]
+	- [batteries](batteries)
+	- [solar](solar)
 - #### Cameras
-	- [[camera]]
+	- [camera](camera)
 - #### Raspberry Pi
-	- [[Raspberry-pi]]
+	- [[Raspberry-pi]](Raspberry-pi)
 - #### Enclosure
 	- [[enclosure]]
 - #### Power over Ethernet
