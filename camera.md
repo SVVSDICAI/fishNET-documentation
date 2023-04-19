@@ -1,5 +1,6 @@
 # Camera
 The camera is located inside the underwater enclosure, it is the most important part of the system. 
+
 ![temp_image](1080919857362632825.webp)
 ## Types of camera
 The raspberry pi can be used with several camera models, for our original prototype we used the [high quality camera](https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera). Any other model could be used, though each will have distinct advantages ad disadvantages.
