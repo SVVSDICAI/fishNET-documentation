@@ -18,17 +18,17 @@
 ## Software
 - ### Remote camera
 	- #### Livestreaming
-		- [livestreaming](./livestreaming)
+		- [livestreaming](./livestreaming.md)
 	- #### Recording service
-		- [recording](./recording)
+		- [recording](./recording.md)
 - ### Model
-	- [image processing](./image processing)
-	- [approaches to training the model](./ApproachesToTrainingTheModel)
-	- [implementing the model](./ImplementingTheModel)
-	- [the complete pipeline](./TheCompletePipeline)
+	- [image processing](./ImageProcessing.md)
+	- [approaches to training the model](./ApproachesToTrainingTheModel.md)
+	- [implementing the model](./ImplementingTheModel.md)
+	- [the complete pipeline](./TheCompletePipeline.md)
 
 ## Deployment
 - #### Pre deployment checklist
-	- [Pre-Deployment](./Pre-Deployment)
+	- [Pre-Deployment](./Pre-Deployment.md)
 - ### Deployment process
-	- [Deployment](./Deployment)
+	- [Deployment](./Deployment.md)
