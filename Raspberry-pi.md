@@ -62,3 +62,9 @@ sudo xset -display :0.0 dpms force off
 sudo raspi-config
 ```
 Go to `System Options` > `Boot / Auto Login` and select `Console`.  Upon the next reboot the desktop will be disabled.  **NOTE**, performing this step will prevent you from interfacing with the Pi over VNC, so do not disable the desktop if you would like to use VNC.
+
+## Software on the Pi
+Thanks to the Pi's versatile computing capabilities, it can serve various needs within the FishNET framework:  
+- The Pi can record video at regular intervals and store the footage locally.  The video is offloaded by connecting to the Pi directly after the deployment is complete.  This is the most straightforward approach and what we implemented for our first deployment in a remote waterway environment.  Example code to capture video at regular intervals can be found [here](TODO create a Code directory and add example code for this functionality).
+- The Pi can stream video to streaming services such as Youtube.  This enables constant, 24/7 footage capture, ensuring the maximum possible odds of capturing fish.  This solution does require a wireless radio setup as described in [connectivity](./connectivity.md), or for the pi to be connected directly to the internet.  The AI backend can then be configured to run the live stream through the fish detection model.
+- The Pi can run the AI backend directly, only saving footage that it determines to contain a fish.  This approach requires Tensorflow 2 to be installed on the Pi, and a local video stream for the backend to monitor.  This can be done, but will drastically increase the Pi's power usage.  A Pi 4 will be needed for the best results, further hurting efficiency.  This approach does have the benefit of not needing a separate backend to filter images of fish.
