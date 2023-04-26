@@ -29,6 +29,8 @@
 
 ## Deployment
 - #### Pre deployment checklist
-	- [Pre-Deployment](../Pre-Deployment)
+	- [Pre-Deployment](../Pre-Deployment.md)
 - ### Deployment process
-	- [Deployment](../Deployment)
+	- [Deployment](../Deployment.md)
+- ### Results
+	- [Results](../Results.md)
