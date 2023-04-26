@@ -38,5 +38,18 @@ If the above command return that the script is running without error, it is now 
 
 The back end can be configured as follows to view the live stream:
 ```python
+import pafy
 
+# set up pafy to capture images from the youtube stream
+url = '[put youtube url here]'
+video = pafy.new(url)
+best = video.getbest(preftype="mp4")
+
+try:
+    capture = cv2.VideoCapture(best.url)
+    while True:
+        grabbed, frame = capture.read() # get the latest frame from the live stream
+        run_model(frame)
+except KeyboardInterrupt:
+    pass
 ```

@@ -48,8 +48,32 @@ scp [username]@[hostname].local:where/the/recordings/are/stored/on/the/pi/record
 
 ## Running the Captured Footage Through the AI Back End
 
-The back end can be configured as follows to process the collected footage:
+The back end can be configured as follows to process the collected footage (where the above zip file has been extracted to `./clips/Deployment`):
 ```python
+try:
+    # iterate over each frame in the video file captured locally on the camera pi
+    for clip in sorted(os.listdir('./clips/Deployment')):
+        video = './clips/Deployment/' + clip
+        cap = cv2.VideoCapture(video)
+        clip_date = clip.split('_')[1].split('.')[0] # just get the date from file name of the form clipN_[date].h264
 
+        # iterate over the frames
+        while cap.isOpened():
+            # read the current frame
+            ret, frame = cap.read()
+
+            if not ret:
+                break
+
+            frame_image = Image.fromarray(frame)
+            frame_image.convert('RGB').save('fish.png')
+            # rotate the image
+            #frame_image = frame_image.rotate(90)
+            run_model(frame_image)
+
+        # release the video capture object
+        cap.release()
+except KeyboardInterrupt:
+    print('exiting...')
 ```
 
