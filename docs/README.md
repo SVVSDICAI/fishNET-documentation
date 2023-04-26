@@ -2,8 +2,8 @@
 
 ## Hardware
 - #### Power System
-	- [batteries](../batteries.md)
-	- [solar](../solar.md)
+	- [batteries](../Batteries.md)
+	- [solar](../Solar.md)
 - #### Cameras
 	- [camera](../camera.md)
 - #### Raspberry Pi
