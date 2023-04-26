@@ -18,9 +18,9 @@
 ## Software
 - ### Remote camera
 	- #### Livestreaming
-		- [livestreaming](../livestreaming)
+		- [livestreaming](../livestreaming.md)
 	- #### Recording 
-		- [recording](../recording)
+		- [recording](../recording.md)
 - ### Model
 	- [image processing](../ImageProcessing)
 	- [approaches to training the model](../ApproachesToTrainingTheModel)

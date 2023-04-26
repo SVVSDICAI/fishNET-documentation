@@ -10,7 +10,7 @@ sudo nano /etc/systemd/system/local_video_capture.service
 ```
 
 Add the following content:
-```json
+```
 [Unit]  
 Description=Captures video at regular intervals and saves the footage locally
 After=multi-user.target

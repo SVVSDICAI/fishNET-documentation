@@ -11,7 +11,7 @@ sudo nano /etc/systemd/system/live_stream.service
 ```
 
 Add the following content:
-```json
+```
 [Unit]  
 Description=Starts a live stream of the pis camera view
 After=multi-user.target
