@@ -8,7 +8,7 @@ The enclosure contains a 3D printed bracket with heat set standoff inserts to ke
 The enclosure is connected by an ethernet cable. The cable connects the raspberry pi to the [networking equipment](../connectivity) and to the [power system](./Power).
 
 ### power
-the ethernet cable supplies 12 volt [power over ethernet](./POE) to the box, but because the raspberry pi is run off of 5v power the power lines are run through a high efficiency step down circuit.
+the ethernet cable supplies 12 volt [power over ethernet](./POE) to the box, but as the raspberry pi is run off of 5v power the power lines are run through a high efficiency step down circuit and into the raspberry pi using the GPIO power pins.
 
 ## Waterproofing
 The enclosure uses a gasket to keep the seal around the hinge waterproofed. The ethernet is waterproofed using a water resistant bulkhead.

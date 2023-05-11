@@ -28,7 +28,7 @@
 	- [the complete pipeline](../TheCompletePipeline)
 
 ## Deployment
-- #### Pre deployment checklist
+- ### Pre deployment checklist
 	- [Pre-Deployment](../Pre-Deployment.md)
 - ### Deployment process
 	- [Deployment](../Deployment.md)
