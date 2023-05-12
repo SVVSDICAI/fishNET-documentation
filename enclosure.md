@@ -1,5 +1,5 @@
 # Underwater Enclosure
-The underwater enclosure serves to keep the [[Raspberry-pi]], [[camera]], and [[POE]] systems dry and organized underwater
+The underwater enclosure serves to keep the [Raspberry-pi](Raspberry-pi), [camera](camera), and [POE](POE) systems dry and organized underwater
 ![[1080919857362632825.webp]]
 ## Organization
 The enclosure contains a 3D printed bracket with heat set standoff inserts to keep the [raspberry pi](./Raspberry-pi) and [camera](./camera) fixed in place during use.
