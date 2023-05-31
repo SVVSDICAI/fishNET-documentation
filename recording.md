@@ -1,7 +1,35 @@
 ## Capturing Video at Regular Intervals
-The following example code can be run on the camera pi to capture and save video at regular intervals.  The captured footage is stored locally on the Pi and must be manually transferred to the device running the AI back end.
+The following example code can be run on the camera pi to capture and save video at regular intervals.  The captured footage is stored locally on the Pi and must be manually transferred to the device running the AI back end.  In the below example, the footage is stored on a USB drive mounted on `/mnt/usb/.
 ```python
-# TODO get the code off of the cam Pi
+from picamera import PiCamera
+from time import sleep
+from datetime import datetime
+ 
+picamera = PiCamera()
+picamera.resolution = (720, 480)
+picamera.framerate = 1
+ 
+n = 0 # keeps track of the number of clips saved
+
+RECORDING_INTERVAL = 15 # the number of minutes that the camera records for at each interval
+ 
+while(True):
+        # check to see if it is between the hours of 7:00 am and 5:30 pm
+        time = str(datetime.now().time())[0:5].split(':')
+        #print(time)
+        if int(time[0]) > 7 and int(time[0]) < 18:
+                # time to record!
+                print('recording...')
+                picamera.start_recording('/mnt/usb/clip'+str(n)+'_{0}.h264'.format(datetime.now().strftime("%Y-%m-%d")))
+                sleep(RECORDING_INTERVAL*60)
+                picamera.stop_preview()
+                picamera.stop_recording()
+                sleep(3600 - RECORDING_INTERVAL*60)
+                n += 1
+        else:
+                # wait
+                print('not a good time, waiting...')
+                sleep(3600) # wait an hour
 ```
 
 This script can be configured to run on boot using systemctl.  Save the above script and take note of the file location.  Create a systemd configuration file for this script using the following command:

@@ -1,0 +1,1 @@
+The first FishNET prototype used a [100 Watt 12 Volt, High-Efficiency Solar Panel](https://www.amazon.com/Renogy-Monocrystalline-Solar-Compact-Design/dp/B07GF5JY35?th=1).
