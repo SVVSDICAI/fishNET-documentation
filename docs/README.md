@@ -14,6 +14,8 @@
 	- [POE](../POE.md)
 - #### Connectivity
 	- [connectivity](../connectivity.md)
+- #### Bill of Materials
+	- [bill of materials](../BillOfMaterials.md)
 
 ## Software
 - ### Remote camera
