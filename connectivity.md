@@ -1,7 +1,7 @@
 # Connectivity
 The system is designed to be used with a 12 volt power over Ethernet radio antenna to stream data in real time to the cloud to be processed.
 
-![Media/radio.webp](Media/radio.webp)
+![radio.webp](radio.webp)
 
 Our system used the [Ubiqiuti airMAX Bullet AC Dual-Band Radio](https://store.ui.com/collections/wireless/products/bullet-ac-ip67-1?_pos=3&_sid=166db66cb&_ss=r) to act  
 as an access point (AP) in a Point-to-Point (PtP) link.  This involves setting up one radio as an access point in a location with access to the internet.  The other radio is configured as a client and is wired via Ethernet to the camera Pi.  See the [Quickstart Guide](https://dl.ui.com/qsg/BulletAC-IP67/BulletAC-IP67_EN.html) or [airOS Documentation](https://dl.ubnt.com/guides/airOS/airOS_UG_V80.pdf#page=17) for more information about configuring the radios.

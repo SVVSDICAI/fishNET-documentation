@@ -1,11 +1,11 @@
 # Camera
 The camera is located inside the underwater enclosure, it is the most important part of the system.  FishNET uses the raspberry pi camera 2 (pictured below).
 
-![pi cam connected](./Media/pi-camera-attached.jpg)
+![pi cam connected](pi-camera-attached.jpg)
 
-The camera can be seen situated in the [underwater box](./enclosure.md) in the following image.
+The camera can be seen situated in the [underwater box](enclosure.md) in the following image.
 
-![camera in box](./Media/camera_in_box.jpg)
+![camera in box](camera_in_box.jpg)
 
 ## Types of camera
 The raspberry pi can be used with several camera models, for our original prototype we used the [high quality camera](https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera). Any other model could be used, though each will have distinct advantages ad disadvantages.
