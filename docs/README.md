@@ -1,5 +1,11 @@
 # Fishnet 
 
+It is important to know what kinds of fish are in local rivers so we know how healthy those rivers are. It turns out, figuring out what species of fish are in local rivers is quite difficult. According to wildlife experts, fish conservation as it stands today is resource intensive and inefficiently designed.
+
+The exciting technology of Artificial Intelligence (AI) could be used to improve traditional fish counting methods. We developed just such a solution, called **FishNET**. FishNET is an underwater camera that looks for fish. The video that it captures is monitored by an AI backend that can Identify five local fish species: Black bullhead catfish, Brown trout, Creek chub, Plains topminnow, and White sucker.
+
+![FishNET logo](../Media/FishNET-logo.jpeg)
+
 ## Hardware
 - #### Power System
 	- [batteries](Batteries.md)
