@@ -12,17 +12,17 @@ https://github.com/SVVSDICAI/FishNetStreamCapture/blob/master/convertcsv.csv
 
 Each row in this data table shows a fish that was detected by the model.  Each row has a link to the corresponding image containing the fish.  Below are some of the best such images located by the model:
 
-![fish1](fish1.png)
+![fish1](./Media/fish1.png)
 
-![fish2](fish2.png)
+![fish2](./Media/fish2.png)
 
-![fish3](fish3.png)
+![fish3](./Media/fish3.png)
 
-![fish4](fish4.png)
+![fish4](./Media/fish4.png)
 
 The model also generated a graph of the number of fish counted over the course of the deployment:
 
-![fish1](fish_counts.png)
+![fish1](./Media/fish_counts.png)
 
 The counts are estimated values as the current iteration of this model does not include object tracking.  This means that no information about the fish is retained between frames.  In short, it has no way of knowing if the fish in one frame is the same as the fish in another frame.  We are working on a more advanced model that will have some of these capabilities.  To get around this restriction, when the current model sees a fish, it will only increment the counter if there was no fish in the previous frame.  This way, a fish that stays in view for several frames is only counted once.  With this in mind, the above counts are a good estimate for the number of fish on a given day, but not an exact count.
 

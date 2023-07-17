@@ -1,7 +1,7 @@
 # Raspberry Pi
 The [Raspberry-pi](https://www.raspberrypi.org/) is a popular single board Linux computer that is perfect for edge computing cases such as FishNET.  Its low power footprint, on board video capture and image processing capabilities inspired our selection of this device for FishNET.
 
-![](raspi.jpg)
+![](./Media/raspi.jpg)
 
 Raspberry Pi's come in a variety of versions.  We chose to use the Pi 3B because of its balance of computing capabilities and low power usage.  The Pi 3 draws around 360 mA at 5 V under normal operations with WiFi disabled ([1](https://www.raspberrypi-spy.co.uk/2018/11/raspberry-pi-power-consumption-data/)).  This comes out to around 1.8 Watts.
 
@@ -20,7 +20,7 @@ where the default username is `pi` and the default hostname is `raspberrypi`.  W
 
 Connect the Pi Camera to the Pi using the camera module port (see below).
 
-![](raspi-cam-port.jpg)
+![](./Media/raspi-cam-port.jpg)
 
 On the Pi, open a terminal or ssh session.  Enter the following command to enable the camera module:
 ```bash

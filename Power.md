@@ -1,5 +1,5 @@
 # Power
-![electrical diagram](electrical-diagram.svg)
+![electrical diagram](./Media/electrical-diagram.svg)
 ## Power supply box
 the wiring in the power supply box is set up to be easy to deactivate any of the 3 components: The batteries, The (solar) power input, and The power output. each subsystem can be turned off temporarily for testing, but will also be deactivated in the case of a short circuit to prevent damage to other components.
 

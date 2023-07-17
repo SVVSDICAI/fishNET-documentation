@@ -31,9 +31,8 @@ The exciting technology of Artificial Intelligence (AI) could be used to improve
 	- #### Recording 
 		- [recording](../recording.md)
 - ### Model
-	- [image processing](../ImageProcessing.md)
 	- [approaches to training the model](../ApproachesToTrainingTheModel.md)
-	- [implementing the model](../ImplementingTheModle)
+	- [implementing the model](../ImplementingTheModel.md)
 	- [the complete pipeline](../TheCompletePipeline.md)
 
 ## Deployment

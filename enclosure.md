@@ -1,6 +1,6 @@
 # Underwater Enclosure
 The underwater enclosure serves to keep the [Raspberry-pi](Raspberry-pi.md), [camera](camera.md), and [POE](POE.md) systems dry and organized underwater
-![underwater enclosure](underwater_enclosure.jpg)
+![underwater enclosure](./Media/underwater_enclosure.jpg)
 
 ## Organization
 The enclosure contains a 3D printed bracket with heat set standoff inserts to keep the [raspberry pi](Raspberry-pi.md) and [camera](camera.md) fixed in place during use.
@@ -20,7 +20,7 @@ The enclosure uses a gasket to keep the seal around the hinge waterproofed. The 
 
 # Battery Enclosure
 For the first FishNET prototype, the size of the [batteries](Batteries.md) necessitated they be stored separately from the camera, and above water.  For this reason, an above-ground enclosure was constructed using a weather-proof [Pelican Case](https://overlandaddict.com/products/pelican-bx50-cargo-case).  The batteries, and solar charge controller were mounted in this box.  Holes were drilled in the sides to allow for power and Ethernet to pass through the same bulkhead connectors used in the underwater box.
-![battery enclosure](battery_enclosure.jpg)
+![battery enclosure](./Media/battery_enclosure.jpg)
 
 ## Possible Improvements
 - The need for the battery box could be mitigated by using smaller batteries capable of fitting in the underwater enclosure.
